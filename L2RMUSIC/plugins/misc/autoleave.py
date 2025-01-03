@@ -1,15 +1,15 @@
-import asyncio
+import asyncio  ### ❖ ➥ 𝗕𝐖𝗙 𝗠𝗨𝗦𝗜𝗖™🇮🇳
 from datetime import datetime
 
 from pyrogram.enums import ChatType
 
-import config
+import config ### ❖ ➥ 𝗕𝐖𝗙 𝗠𝗨𝗦𝗜𝗖™🇮🇳
 from L2RMUSIC import app
 from L2RMUSIC.core.call import Ashish, autoend
 from L2RMUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
-async def auto_leave():
+async def auto_leave():    ### ❖ ➥ 𝗕𝐖𝗙 𝗠𝗨𝗦𝗜𝗖™🇮🇳
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(500):
             from L2RMUSIC.core.userbot import assistants
