@@ -117,12 +117,12 @@ async def get_thumb(videoid):
 
             # fonts
             font1 = ImageFont.truetype('L2RMUSIC/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 35)
+            font2 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 30)
+            font3 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 45)
+            font4 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 45)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "L2R MUSIC", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "RAJA MUSIC", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
